@@ -11,6 +11,8 @@ John Baskerville
 
 - [Version 2](https://eleventhirty.github.io/john_baskerville/baskerville2.html) - Added list item.
 
+- [Version 3](https://eleventhirty.github.io/john_baskerville/baskerville3.html) - Changed list to a table and added images.
+
 History of Type
 ---------------
 - **[History of Type 1](https://eleventhirty.github.io/john_baskerville/history1.html)**  
