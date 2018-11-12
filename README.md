@@ -19,3 +19,5 @@ History of Type
   I will walk through this exercise next week once you have all had a chance to play with it yourselves.
   
 - **[History of Type 2](https://eleventhirty.github.io/john_baskerville/history2.html)** Added a simple nav and links to each designer plus added list as a new section at the end. 
+
+- **[History of Type 3](https://eleventhirty.github.io/john_baskerville/history3.html)** Converted list to a table and added images. 
