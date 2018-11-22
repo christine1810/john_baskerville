@@ -10,7 +10,7 @@
 /* ----------- MAIN STYLING ----------- */
 
 body {
-    width: 75%;
+    width: 90%;
     max-width: 670px;
     margin: auto;
     background: #fafafa;
@@ -18,7 +18,7 @@ body {
 }
 
 
-/* ----------------- TYPOGRAPHY ---------------*/
+/* ----------------- TYPOGRAPHY ---------------
 h1, h2, h3 {
     font-weight: normal;
     color: #c06;
@@ -53,7 +53,7 @@ header h2 {
     color: #333
 }
 
-/* --------- STYLING LINKS ------------ */
+/* --------- STYLING LINKS ------------ 
 
 a {
     color: #c06;
@@ -65,7 +65,7 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
-/*------------- NAVIGATION ---------------- */
+/*------------- NAVIGATION ---------------- 
 
 nav {
     position: fixed;
@@ -97,7 +97,7 @@ nav a:visited {color: #fff}
 nav a:hover {border-bottom: none;
 color: #000}
 
-/* ----------------- BLOCKQUOTE ----------------------- */
+/* ----------------- BLOCKQUOTE ----------------------- 
 
 blockquote {
     padding: 1em 0 4em 0;
@@ -111,7 +111,7 @@ blockquote cite {
 }
 
 
-/* ----------------- IMAGES --------------- */
+/* ----------------- IMAGES ---------------
 
 img {
     display: block;
@@ -120,7 +120,7 @@ img {
     max-width: 100%
 }
 
-/* ---------------- FOOTER ------------------ */
+/* ---------------- FOOTER ------------------
 
 footer {
     text-align: center;
