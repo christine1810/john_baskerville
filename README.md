@@ -16,7 +16,9 @@ John Baskerville
 - [Version 3](https://eleventhirty.github.io/john_baskerville/baskerville3.html) - Changed list to a table and added images.
 
 ### 18 November 2018
+- [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Added CSS!
 
+### 26 November 2018
 - [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Added CSS!
 
 History of Type
