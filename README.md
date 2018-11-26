@@ -19,7 +19,7 @@ John Baskerville
 - [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Added CSS!
 
 ### 26 November 2018
-- [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Added CSS!
+- [Version 5](https://eleventhirty.github.io/john_baskerville/baskerville5.html) - Added CSS!
 
 History of Type
 ---------------
