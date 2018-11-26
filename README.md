@@ -41,3 +41,10 @@ Converted list to a table and added images.
 ### 18 November 2018
 - **[History of Type 4](https://eleventhirty.github.io/john_baskerville/history4.html)**      
 Added CSS to bring this to life. 
+
+Extras
+------
+
+### 26 November 2018
+- **[Typographic Details](https://eleventhirty.github.io/john_baskerville/typographic-details.html)**      
+Added CSS to bring this to life. 
