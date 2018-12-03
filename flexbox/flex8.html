@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>An Introduction to Flexbox</title>
+
+<style>
+body { 
+    background: #f0f0f0; 
+    color: #333;
+    line-height: 1.8em;
+	}
+article {
+	background: #fff;
+	padding: 10px;
+	height: 400px;
+    display: flex; 
+    flex-flow: row; 
+	}
+
+section {	
+    width: 8em; 
+	background: #c06;
+	color: 333;
+	margin: 10px;
+	padding: 10px;
+	}
+    
+    /* Note we have added classes to each section to allow us to target each individually */
+.sidebar{
+      flex: 1; 
+      background: #a3779f
+    }
+    
+.main{
+      flex: 5 ;  
+    }
+    
+.aside{
+      flex:  2; 
+    background: #c1b88d
+    }
+    
+    
+p {
+	margin: 5px;
+    color: #fff
+	}	
+    
+    
+/*----------- SMARTPHONE ------- */
+ @media (max-width: 35em) {
+    
+     article { -webkit-flex-flow: column;
+			flex-direction: column;}
+     
+    section {
+    width: 90%
+	}
+    
+</style>
+  
+</head>
+
+<body>
+ <article>
+
+    <section class="sidebar">
+        <p>Sidebar</p>
+        
+    </section>
+
+    <section class="main">
+        <p>Main Content</p>
+    </section>
+  
+    <section class="aside">
+        <p>Aside</p>
+    </section>
+  
+
+ </article>
+</body>
+</html>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>An Introduction to Flexbox</title>
+
+<style>
+body { 
+    background: #f0f0f0; 
+    color: #333;
+    line-height: 1.8em;
+	}
+article {
+	background: #fff;
+	padding: 10px;
+	height: 400px;
+    display: flex; 
+    flex-flow: row; 
+	}
+
+section {	
+    width: 8em; 
+	background: #c06;
+	color: 333;
+	margin: 10px;
+	padding: 10px;
+     /*  flex-grow: 1; /* This property specifies the flex grow factor,
+                     which determines how much the flex item will grow
+                     relative to the rest of the flex items. */ 
+    
+ /*  flex-shrink: 1; /* The flex-shrink specifies the flex shrink factor,
+                         which determines how much the flex item will shrink
+                         relative to the rest of the flex items.*/
+    
+     flex:   2 1;   /* <flex-grow> <flex-shrink>? || <flex-basis> This property is the shorthand for the flex-grow,
+                       flex-shrink and flex-basis properties. Among other values
+                        it also can be set to auto (1 1 auto) and none (0 0 auto) */
+	}
+    
+    /* Note we have added classes to each section to allow us to target each individually */
+
+.type3 {
+      flex: 2 1 250px;  
+    }
+    
+p {
+	margin: 5px;
+    color: #fff
+	}	
+</style>
+  
+</head>
+
+<body>
+ <article>
+
+    <section class="type1">
+        <p>1. Jenson</p>
+        
+    </section>
+
+    <section class="type2">
+        <p>2. Garamont</p>
+    </section>
+  
+    <section class="type3">
+        <p>3. Caslon</p>
+    </section>
+  
+    <section class="type4">
+        <p>4. Baskerville</p>
+    </section>
+  
+    <section class="type5">
+        <p>5. Bodoni</p>
+    </section>
+
+ </article>
+</body>
+</html>
+

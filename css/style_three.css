@@ -13,7 +13,8 @@ body {
         margin: auto ;
         background: #fafafa;
         color: #333;
-    font-family: 'adobe-garamond-pro', serif;
+        font-family: 'adobe-garamond-pro', serif;
+
 }
         
  h1, h2, h3 {
@@ -36,7 +37,7 @@ blockquote {
     hanging-punctuation: first;
     text-indent: -0.5em; /* Change according to your font */
             }
-.kern { letter-spacing: -5px} 
+.kerntight { letter-spacing: -5px} 
 
 .intro {font-size: 1.25em}
 
@@ -179,9 +180,9 @@ footer hr {margin: 3em 0
 
 .connections {
 	position: relative;
-	margin: 20px, 0;
+	margin: 0 auto;
 }
-/*
+
 .connections ul {
 	margin: 0;
 	padding: 0;}
@@ -210,6 +211,8 @@ footer hr {margin: 3em 0
 /*------------------------ ADDING SOME MEDIA QUERIES --------------------------*/
 
 @media (max-width: 50em){
+    
+    * {background-color: aqua}
 
   body {
     margin: auto;
@@ -220,11 +223,13 @@ footer hr {margin: 3em 0
   article {
     width: 90%;
     }
- 
+ */
 
 @media (max-width: 30em){
+    
+    * { background-color: coral}
 
-  body {
+ /*  body {
     margin: auto;
     font-size: 120%;
       width: 90%;
@@ -237,7 +242,7 @@ footer hr {margin: 3em 0
   article {
     width: 100%;
     }
- 
+ */
   }
 
 

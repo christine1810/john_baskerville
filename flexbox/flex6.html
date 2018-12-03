@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>An Introduction to Flexbox</title>
+
+<style>
+body { 
+    background: #f0f0f0; 
+    color: #333;
+    line-height: 1.8em;
+	}
+article {
+	background: #fff;
+	padding: 10px;
+	height: 400px;
+    display: flex; 
+    flex-flow: row; 
+    align-items: stretch; /* align-items property defines how flex items are
+                             laid out along the cross axis on the current line 
+                            demonstrate – flex-start, flex-end, center, baseline  */
+	}
+
+section {	
+    width: 8em; /* Added width to sections to standardise content */
+	background: #c06;
+	color: 333;
+	margin: 10px;
+	padding: 10px;
+	}
+
+p {
+	margin: 5px;
+    color: #fff
+	}	
+</style>
+  
+</head>
+
+<body>
+ <article>
+
+    <section>
+        <p>1. Jenson</p>
+        
+    </section>
+
+    <section>
+        <p>2. Garamont</p>
+    </section>
+  
+    <section>
+        <p>3. Caslon</p>
+    </section>
+  
+    <section>
+        <p>4. Baskerville</p>
+    </section>
+  
+    <section>
+        <p>5. Bodoni</p>
+    </section>
+
+ </article>
+</body>
+</html>
+
