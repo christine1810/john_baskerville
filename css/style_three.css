@@ -212,7 +212,6 @@ footer hr {margin: 3em 0
 
 @media (max-width: 50em){
     
-    * {background-color: aqua}
 
   body {
     margin: auto;
@@ -223,26 +222,26 @@ footer hr {margin: 3em 0
   article {
     width: 90%;
     }
- */
+ 
 
 @media (max-width: 30em){
     
-    * { background-color: coral}
 
- /*  body {
+body {
     margin: auto;
     font-size: 120%;
       width: 90%;
     }
     
     h1 {font-size: 3.25em}
+    header h2 {font-size: 2em}
     
     blockquote {font-size: 1.25em; line-height: 1.1em}
     
   article {
     width: 100%;
     }
- */
+
   }
 
 

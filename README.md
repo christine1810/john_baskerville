@@ -24,7 +24,7 @@ Added first set of CSS!
 **[Version 5](https://eleventhirty.github.io/john_baskerville/baskerville5.html)**  
 Added Google fonts.
 
-*02 December 2018*<br>
+*03 December 2018*<br>
 **[Version 6](https://eleventhirty.github.io/john_baskerville/baskerville6.html)**  
 Styled table and added svg social media icons.
 
@@ -59,3 +59,7 @@ Extras
 *26 November 2018*<br>
 - **[Typographic Details](https://eleventhirty.github.io/john_baskerville/typographic-details.html)**      
 Added CSS to bring this to life. 
+
+*03 December 2018*<br>
+- **[Flexbox 01](https://eleventhirty.github.io/john_baskerville/baskerville_flex.html)
+- **[Flexbox 02](https://eleventhirty.github.io/john_baskerville/baskerville_flex_two.html)
