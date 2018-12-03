@@ -179,10 +179,9 @@ footer hr {margin: 3em 0
 
 .connections {
 	position: relative;
-	margin: 0 auto;
 	margin: 20px, 0;
 }
-
+/*
 .connections ul {
 	margin: 0;
 	padding: 0;}
