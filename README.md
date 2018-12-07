@@ -56,6 +56,8 @@ Added CSS to bring this to life.
 Extras
 ------
 
+- **[CSS Exercise](https://eleventhirty.github.io/john_baskerville/exercss.html)**   
+
 *26 November 2018*<br>
 - **[Typographic Details](https://eleventhirty.github.io/john_baskerville/typographic-details.html)**      
 Added CSS to bring this to life. 
