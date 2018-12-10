@@ -11,9 +11,9 @@ body {
         width: 75%; 
         max-width: 600px;
         margin: auto ;
-        background: url(../images/baskerville-background.gif);
+        background: #fafafa url(../img/);
         color: #333;
-        font-family: 'adobe-garamond-pro', serif;
+        font-family: 'Libre Baskerville', serif;
 
 }
         

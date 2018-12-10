@@ -25,11 +25,15 @@ section, header{
     margin: 20px auto;}
 
 .dark {color: #fafafa;
-background: #c06;
+background: #333;
 padding: 2em 0}
 
 .deepred {color: #fafafa;
     background-color: crimson;
+padding: 2em 0}
+
+.blue {color: #fafafa;
+    background-color:blueviolet;
 padding: 2em 0}
 
 header {margin-bottom: 4em}
