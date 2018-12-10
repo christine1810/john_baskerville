@@ -46,12 +46,16 @@ Added a simple nav and links to each designer plus added list as a new section a
 Converted list to a table and added images. 
 
 *18 November 2018*<br>
-**[History of Type 4](https://eleventhirty.github.io/john_baskerville/history4.html)**      
+**[History of Type 4](https://eleventhirty.github.io/john_baskerville/history4.html)**   
 Added CSS to bring this to life. 
 
 *26 November 2018*<br>
-**[History of Type 5](https://eleventhirty.github.io/john_baskerville/history5.html)**      
-Added CSS to bring this to life. 
+**[History of Type 5](https://eleventhirty.github.io/john_baskerville/history5.html)**   
+Added Google fonts
+
+*03 December 2018*<br>
+**[History of Type 6](https://eleventhirty.github.io/john_baskerville/history6.html)**   
+Final sprinkles 
 
 Extras
 ------
