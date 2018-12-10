@@ -58,6 +58,8 @@ Extras
 
 - **[CSS Exercise](https://eleventhirty.github.io/john_baskerville/exercss.html)**   
 
+**The examples below DO NOT have to be executed. These are here for reference only.**
+
 *26 November 2018*<br>
 - **[Typographic Details](https://eleventhirty.github.io/john_baskerville/typographic-details.html)**      
 Added CSS to bring this to life. 

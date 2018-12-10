@@ -4,12 +4,10 @@
 	<meta charset="utf-8" />
 	<title>Baskerville CSS Exercise</title>
     
-     <!-- ADDING GOOGLE FONT  -->
-    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,300italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic' rel='stylesheet' type='text/css'>
+     <!-- ADDING GOOGLE FONT NOTICE THAT LIBRE BASKERVILLE, OPEN SANS AND ARVO HAVE ALL BEEN SELECTED ON GOOGLEFONTS.COM -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i|Libre+Baskerville:400,400i,700|Open+Sans:400,400i" rel="stylesheet">
     
-    <!-- ADDING INTERNAL CSS  -->
+    <!-- ADDING INTERNAL CSS TO DEMONSTRATE EACH SECTION **ADD THIS AS A SEPARATE CSS FILE**   -->
     <style>
   
         body{
@@ -18,7 +16,7 @@
             margin: auto;
             padding: 0 30px;
             font-size: 100%;
-            /* background: #f9f8e7 url(images/paper_fibers.png) */
+            font-family: 'Libre Baskerville', serif;
             }
         article {
             margin-bottom: 6em
@@ -31,18 +29,16 @@
             margin: 0; 
             font-weight: normal;}
         
-        p {line-height:   1.6em; }
+        p {line-height: 1.6em;}
         
-        
-        h1 {font-size: 5.063em; 
-            }
+        h1 {font-size: 5.063em;}
          
         h2 {font-style: italic;
             font-size: 2.25em;
-            padding-bottom: 30px}
+            padding-bottom: 30px;}
         
         h3 {font-size: 1.25em;
-        text-transform: uppercase;} 
+            text-transform: uppercase;} 
         
         blockquote {
             margin: 0; 
@@ -51,66 +47,67 @@
             font-style: italic;
             padding: 1em 0 0 0;}
         
-        blockquote p {
+        blockquote {
             color: #999;
             hanging-punctuation: first;
-            text-indent: -0.28em; /* Change according to your font */
+            text-indent: -0.45em; /* Change according to your font */
             }
         
-       blockquote cite { color: #999; font-size: 0.667em; display: inline; margin-bottom: 1em}
+       blockquote cite { 
+           color: #999; 
+           font-size: 0.667em;  
+           margin-bottom: 1em}
         
-     
-        .intro {font-size: 1.25em; padding-bottom: 1em; }
+       hr {
+           margin: 4em 0;
+           height: 1px;    
+           background-color:#FF0066;
+           color:#FF0066;
+            border: 0 none;}
         
-        
-        
+        .intro {
+            font-size: 1.25em;
+            padding-bottom: 1em; }
+
         .dropcap {
 		  float: left;
 		  font-size: 4.7em;
 		  line-height: .5em;
 		  margin-right: 0px;}
+        
+<!--------------- VERSION 1 STYLING --------------->
 
-        .version1 {padding-top: 50px;
-            font-family: 'Libre Baskerville', serif;}
+        .version1 {padding-top: 50px;}
+        .version1 h2 {font-family: 'Libre Baskerville', serif;}
         
         .version1 .intro {padding-bottom: 1em; }
-       
         
-        
+<!--------------- VERSION 2 STYLING --------------->
         
         .version2 {
             font-family: 'Open Sans', sans-serif;} 
         
         .version2 h2 {
             font-family: 'Open Sans', sans-serif;} 
+        
         .introcaps {text-transform: uppercase;}
         
         .version2 cite {font-style: normal;
         text-transform: uppercase;}
         
-        .version2 p+p {margin-bottom: -1em;}
-
+        .para {
+            margin-top: -1em;
+            text-indent: 2em;}
+       
+<!--------------- VERSION 3 STYLING --------------->
         
-        .version2 p+p+p {text-indent:1.5em;}
-        
-        
-        
-        .version3 h1, h2 {font-family: 'Arvo', serif;}
+        .version3 h1, h2, h3 {font-family: 'Arvo', serif;}
       
         .version3 p {font-family:'Open Sans', sans-serif; }
         
         .version3 blockquote {font-family: 'Arvo', serif;}
 
-      hr {
-           margin: 4em 0;
-           height: 1px;    
-           background-color:#FF0066;
-           color:#FF0066;
-            border: 0 none;
-        }
-     
-      
-    </style>
+  </style>
     
 </head>
     
@@ -128,7 +125,7 @@
                    <p>Baskerville was responsible for numerous innovations in printing, paper and ink production. He developed a technique which produced a smoother whiter paper which showcased his strong black type. He also pioneered a completely new style of typography, adding wide margins and generous leading to improve legibility.</p>
 			
 			<blockquote>
-				<p>&ldquo;Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.&rdquo;</p>
+				“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”<br>
 					<cite>—John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)</cite>
 			</blockquote>
         </section>
@@ -147,10 +144,10 @@
 		
 			<p>Baskerville was born in the village of Wolverley, near Kidderminster in Worcestershire, and worked as a printer in Birmingham. Baskerville printed works for the University of Cambridge and, although an atheist, printed a splendid folio bible in 1763. His typefaces were greatly admired by Benjamin Franklin, a printer and fellow member of the Royal Society of Arts, who took the designs back to the newly-created United States, where they were adopted for most federal government publishing.</p>
         
-                   <p>Baskerville was responsible for numerous innovations in printing, paper and ink production. He developed a technique which produced a smoother whiter paper which showcased his strong black type. He also pioneered a completely new style of typography, adding wide margins and generous leading to improve legibility.</p>
+            <p class="para">Baskerville was responsible for numerous innovations in printing, paper and ink production. He developed a technique which produced a smoother whiter paper which showcased his strong black type. He also pioneered a completely new style of typography, adding wide margins and generous leading to improve legibility.</p>
 			
 			<blockquote>
-				<p>“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”</p>
+				“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”<br>
 					<cite>—John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)</cite>
 			</blockquote>
         </section>
@@ -169,7 +166,7 @@
                    <p>Baskerville was responsible for numerous innovations in printing, paper and ink production. He developed a technique which produced a smoother whiter paper which showcased his strong black type. He also pioneered a completely new style of typography, adding wide margins and generous leading to improve legibility.</p>
 			
 			<blockquote>
-				“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”
+				“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”<br>
 					<cite>—John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)</cite>
 			</blockquote>
         </section>

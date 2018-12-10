@@ -25,7 +25,11 @@ section, header{
     margin: 20px auto;}
 
 .dark {color: #fafafa;
-background: #333;
+background: #c06;
+padding: 2em 0}
+
+.deepred {color: #fafafa;
+    background-color: crimson;
 padding: 2em 0}
 
 header {margin-bottom: 4em}

@@ -11,7 +11,7 @@ body {
         width: 75%; 
         max-width: 600px;
         margin: auto ;
-        background: #fafafa;
+        background: url(../images/baskerville-background.gif);
         color: #333;
         font-family: 'adobe-garamond-pro', serif;
 
@@ -205,7 +205,7 @@ footer hr {margin: 3em 0
 		opacity: 1.0;
 		border-bottom: none;
 		transition: all 0.3s ease-in-out; 
-				transform:scale(1.1);}	
+				}	
 
 
 /*------------------------ ADDING SOME MEDIA QUERIES --------------------------*/
